@@ -1,0 +1,71 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 500px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(83, 19, 19);
+    font-family: 'Harry Potter', sans-serif;
+  }
+  h2, p{
+    color: rgb(47, 3, 3);
+  }
+  .contenedor-principal{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 500px;
+  }
+  
+  .img{
+    width: 100%;
+    height: 250px;
+  }
+  
+  .boton{
+    border: none;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 40%;
+    height: 40px;
+    font-size: 1.8rem;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .boton{
+    text-decoration: none;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 500px;
+}
+button, boton{
+    text-decoration: none;
+}
+button{
+  text-decoration: none;
+}

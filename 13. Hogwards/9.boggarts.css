@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 500px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(222, 198, 170);
+    font-family: 'Harry Potter', sans-serif;
+  }
+  h2, p{
+    color: #4b3419;
+  }
+  simg{
+    display: flex;
+    grid-row: 1;
+  }
+  bogimg{
+    border-radius: 25px;
+  }
