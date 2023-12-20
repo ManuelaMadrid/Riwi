@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahorcado Angeli y Manuela.</title>
+  <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo">Ahorcadito con el Grinch</h1>
+    <nav>
+      <ul>
+        <li><a href="instrucciones.html">Instrucciones del juego</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br><br><br><br><br>
+  <div class="contenedor">
+
+    <div class="imagenGrif">
+      <img class="grinchimg" src="https://i.pinimg.com/originals/a1/c5/0b/a1c50b562b31089fbe85b91b9fa298cb.gif" alt="">
+    </div>
+
+    <div class="hijo">
+      <div class="nieto">
+        <h1>¡Ahorcadito con el grinch!</h1>
+
+        <div class="contenido">
+          <label for="">Ingresa una letra: </label>
+          <input type="text" id="letra" maxlength="1">
+          <p id="palabraGuiones"></p> <br><br><br>
+          <button id="calcular">Guardar letra.</button>
+        </div>
+
+
+
+    </div>
+    </div>
+    <div class="imgp" id="ahorcado" ></div>
+  </div>
+  
+  
+  </div>
+  <!--Pegar el HTML del ahorcadito y acomodarlo al lado de la imagen del Grinch-->
+  <br><br><br>
+  <audio class="audio1" controls autoplay>
+    <!--Que el audio sea el mismo en toda la pagina, si es posible hacer que se vea más bonito.-->
+    <source src="https://youtu.be/tAzuzwbbRwY" type="audio/mpeg">
+    <source src="Tchaikovsky El Cascanueces.mp3" type="audio/ogg">
+    Tu navegador no es compatible con el audio de HTML 5
+  </audio>
+  <br><br><br><br><br><br><br>
+
+
+  <div id="ganador" class="ganador">
+    <p>¡Muy bien, la respuesta es correcta!</p>
+    <img class="img-ganar" src="./Ganar.png" alt="">
+    <p>Gracias por jugar.</p>
+</div>
+<div id="perdedor" class="perdedor">
+    <p>¡Intentalo de nuevo!</p>
+    <img class="img-perder" src="./Perder.png" alt="">
+    <p>La respuesta ingresada no es correcta.</p>
+</div>
+  <footer>
+    <div class="footer-contenido">
+      <p>Ahorcadito con el Grinch</p>
+      <ul>
+        <li><a href="./instrucciones.html">Instrucciones</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

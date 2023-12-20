@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: rgb(173, 6, 6);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.contenedor{
+  display: flex;
+}
+.hijo{
+  display: block;
+}
+.grinchimg{
+    margin-left: -271px;
+    padding-left: 266px;
+    border-radius: 195px;
+    height: 435px;
+}
+.audio1{
+    margin-left: -260px;
+    padding-left: 268px;
+}
+footer {
+    background-color: rgb(173, 6, 6);
+    color: #fff;
+    padding: 37px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  .footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-contenido p {
+    margin: 0;
+  }
+  
+  .footer-contenido ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .footer-contenido li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-contenido a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+/*Pegar el código CSS del ahorcadito*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(10, 4, 4);
+}
+li{
+  margin-left: 10px;
+  list-style: none;
+  display: flex;
+  width: 250px;
+  text-align: center;
+  
+}
+body{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.padre{
+  width: 100%;
+  display: flex;
+  margin-top: 150px;
+ 
+}
+.imgpp {
+  width: 50%;
+  height: 491px;
+  margin: 100px;
+  padding-top: 50px;
+
+
+}
+.imgp {
+  width: 197px;
+  height: 612px;
+  background-image: url(./../imagen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -249px;
+}
+.contenido{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+label{
+  font-size: 20px;
+}
+p{
+  font-size: 40px;
+}
+.ganador{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  font-size: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(28, 169, 54, 0.759);
+  justify-content: center;
+  flex-direction: column;
+}
+.perdedor{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  font-size: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(54, 46, 205, 0.837);
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+button{
+  width: 110px;
+  height: 36px;
+  background-color: rgb(0, 21, 255);
+  border-radius: 20px;
+  color: azure;
+  border-color: aliceblue;
+  margin-left: 71px;
+}
+input{
+  width: 57px;
+  height: 24px;
+  padding-right: 15px;
+}
+.img-perder{
+  width: 200px;
+  height: 200px;
+}
+.img-ganar{
+  width: 200px;
+  height: 200px;
+}
+.botonFinGanar{
+  background-color:rgb(0, 255, 34);
+  border-radius: 27px;
+  color: rgb(0, 0, 0);
+  border-color: aliceblue;
+  margin-left: -26px;
+  width: 110px;
+  height: 40px;
+}
+.botonFinPerder{
+  width: 110px;
+  height: 40px;
+  background-color:rgb(0, 21, 255);
+  border-radius: 20px;
+  color: azure;
+  border-color: aliceblue;
+  margin-left: -15px;
+}
+.padredepadre{
+  margin-right: 211px;
+  padding-right: 269px;
+};
+.padre{
+  margin-right: 211px;
+  padding-right: 269px;
+};
